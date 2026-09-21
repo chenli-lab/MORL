@@ -1,25 +1,19 @@
 # MORL
 
-## Introduction
+## Project Description
 
-This repository contains MATLAB simulation code for a multi-objective Q-learning ultimatum game. The code studies how the weight between material payoff and fairness preference affects long-run strategies and action distributions.
+This project provides MATLAB simulation code for a multi-objective reinforcement learning model of fairness behavior.
 
-## Description
+The code implements a two-agent Q-learning ultimatum game in which each agent learns from both material payoff and fairness-related feedback. A fairness pressure coefficient is used to control the relative weight between the payoff objective and the fairness objective.
 
-The simulation models two agents with separate Q-tables for payoff-driven and fairness-driven learning. A fairness pressure coefficient controls the contribution of the fairness objective to decision-making.
+By scanning different values of the fairness weight, the simulation records the long-run action distributions of both agents and analyzes how fairness preference shapes strategy selection in repeated interactions.
 
-The code scans different values of the preference weight and records the long-run action distributions of both agents.
+## Installation Guide
 
-The code is organized as follows:
-
-- **`main.m`** – Main MATLAB script for running the two-agent multi-objective Q-learning simulation.
-- **`README.md`** – Project description, dependencies, and usage instructions.
-
-## Dependencies
-
-- MATLAB R2020a or later
-
-No additional MATLAB toolboxes are required.
+1. Ensure that MATLAB is installed on your computer.
+2. Download or clone this repository.
+3. Open the project folder in MATLAB.
+4. No additional MATLAB toolboxes are required.
 
 ## Usage
 

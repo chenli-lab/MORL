@@ -1,29 +1,29 @@
 # MORL
 
-## 简介
+## Introduction
 
-本仓库包含一个基于 MATLAB 的多目标 Q-learning 最后通牒博弈仿真代码。该代码用于研究物质收益偏好与公平偏好之间的权重如何影响长期策略和动作分布。
+This repository contains MATLAB simulation code for a multi-objective Q-learning ultimatum game. The code studies how the weight between material payoff and fairness preference affects long-run strategies and action distributions.
 
-## 描述
+## Description
 
-该仿真模型为两个智能体分别设置收益驱动和公平驱动的 Q 表。公平压力系数用于控制公平目标在决策过程中的权重。
+The simulation models two agents with separate Q-tables for payoff-driven and fairness-driven learning. A fairness pressure coefficient controls the contribution of the fairness objective to decision-making.
 
-代码扫描不同偏好权重取值，并记录两个智能体在长期演化后的动作分布。
+The code scans different values of the preference weight and records the long-run action distributions of both agents.
 
-代码结构如下：
+The code is organized as follows:
 
-- **`main.m`** – 运行双智能体多目标 Q-learning 仿真的主 MATLAB 脚本。
-- **`README.md`** – 项目描述、依赖环境和使用说明。
+- **`main.m`** – Main MATLAB script for running the two-agent multi-objective Q-learning simulation.
+- **`README.md`** – Project description, dependencies, and usage instructions.
 
-## 依赖环境
+## Dependencies
 
-- MATLAB R2020a 或更高版本
+- MATLAB R2020a or later
 
-无需额外 MATLAB 工具箱。
+No additional MATLAB toolboxes are required.
 
-## 使用方法
+## Usage
 
-在 MATLAB 中直接运行主脚本：
+Run the main script directly in MATLAB:
 
 ```matlab
 main
